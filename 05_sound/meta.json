@@ -1,0 +1,14 @@
+{
+  "icon": "/images/sound.png",
+  "title": "Toneffekte",
+  "description": "Viele Spiele können durch das Abspielen von Hintergrundmusik oder von kurzen Toneffekten verbessert werden. Dieses Kapitel erklärt die verschiedenen Möglichkeiten.",
+  "steps": [
+    "Die Toneffekte bauen auf dem Grundgerüst auf. Es sollte also grob diese Struktur vorhanden sein. Weder der HTML- noch der CSS-Code müssen für das Hinzufügen von Sounds speziell vorbereitet werden.",
+
+    "Der erste Schritt ist jeweils, eine passende Tondatei zu finden und herunterzuladen. Tondateien sollten im Format .wav oder .mp3 heruntergeladen werden. Mit [convertio.co](https://convertio.co/) können die Dateien gegebenenfalls konvertiert werden. Die Dateien werden am Besten in einen Unterordner der übrigen Dateien, z.B. `sounds`, abgelegt.",
+
+    "Vor dem Spiel (und *vor dem Loop*) müssen alle Dateien geladen werden. Das ermöglicht, sie während dem Spiel ohne Verzögerung abzuspielen. Um eine Datei zu laden, muss der Pfad zur Datei der Funktion `new Audio()` übergeben und das Resultat in einer Variable gespeichert werden.",
+
+    "Zum Abspielen muss die Funktion `play()` dieser Variable aufgerufen werden. Die Datei wird dann abgespielt."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "icon": "/images/movement.png",
+  "title": "Bewegung",
+  "description": "Spieler, Gegner sowie weitere Objekte können im Spiel bewegt werden. Dieses Kapitel zeigt einen einfachen Weg, um diese Positionierung zu programmieren.",
+  "steps": [
+    "Die Bewegung baut auf dem Grundgerüst auf. Es sollte also grob diese Struktur vorhanden sein. Damit ein Objekt bewegt werden kann, muss es unbedingt mit `position: absolute` im CSS-Code eine absolute Positionierung haben. Nur dann funktionieren die CSS-`left` und -`top`-Eigenschaften.",
+
+    "Um dem Objekt eine Startposition zu geben, muss *vor* dem Game-Loop diese Position mit der `left`- bzw. der `top`-Eigenschaft bestimmt werden.",
+
+    "*Im Game-Loop* kann dann die Positionierung geändert werden. In diesem Beispiel wird die `left`-Eigenschaft, dass heisst, der Abstand zum linken Spielfeldrand, jeweils um 1px vergrössert. Der Spieler bewegt sich so nach rechts."
+  ]
+}

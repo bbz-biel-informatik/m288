@@ -1,0 +1,14 @@
+{
+  "icon": "/images/keyboard.png",
+  "title": "Tastatursteuerung",
+  "description": "Spieler sowie Gegner können mit der Tastatur gesteuert werden. Die nötigen Vorbereitungen sowie ein kleines Beispiel werden in diesem Kapitel gezeigt.",
+  "steps": [
+    "Die Tastatursteuerung baut auf dem Grundgerüst auf. Es sollte also grob diese Struktur vorhanden sein. **Wichtig**: steuerbare Objekte müssen mit `position: absolute` positioniert werden!",
+
+    "Damit der Tastaturstatus abgefragt werden kann, muss die Datei `keyboard.js` eingebunden werden. Diese kann direkt vom Server in den HTML-Code eingebettet werden. **Wichtig**: Die Datei muss *vor* eurer eigenen JS-Datei eingebunden sein.",
+
+    "Auf der Website [keycode.info](http://keycode.info/) kann man den Code jeder Taste der Tastatur herausfinden. Über diesen Code geschieht später die Abfrage der Tastatur. Die Pfeiltaste nach rechts hat beispielsweise den Code 39.",
+
+    "Mit der Funktion `keyboard()` *im Loop drin* kann abgefragt werden, ob die Taste mit einem bestimmten Code im Moment gedrückt wird. So kann zum Beispiel beim Drücken der rechten Pfeiltaste der Spieler nach rechts bewegt werden."
+  ]
+}

@@ -1,0 +1,13 @@
+.player {
+  position: absolute;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+}
+
+.stein {                              /* start=2 */
+  position: absolute;                 /* start=2 */
+  width: 20px;                        /* start=2 */
+  height: 20px;                       /* start=2 */
+  background-color: gray;           /* start=2 */
+}                                     /* start=2 */

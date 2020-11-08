@@ -1,0 +1,18 @@
+{
+  "icon": "/images/scaffold.png",
+  "title": "Grundgerüst",
+  "description": "Dieses Kapitel zeigt den HTML-, CSS- und Javascript-Code, der benötigt wird, um mit der Game-Programmierung zu starten.",
+  "steps": [
+    "In einem ersten Schritt muss der HTML-Code für das Spielfeld geschrieben werden. Im Spielfeld werden alle Objekte enthalten sein, die sich im Spiel befinden.",
+
+    "Der Spieler ist eines dieser Objekte. Er kann mit CSS-Code gestaltet werden. So kann die Grösse, die Farbe, ein Hintergrundbild oder ähnliches definiert werden. Wichtig: der Spieler muss absolut positioniert sein, damit er später bewegt werden kann.",
+
+    "Falls der Spieler eine bestimmte Grösse haben soll, kann das mit den CSS-Regeln `width` und `height` erreicht werden.",
+
+    "Jetzt kommt noch der Javascript-Code hinzu. Hier wählen wir zuerst den Spieler aus, damit wir ihn später im Spiel steuern können.",
+
+    "Zuletzt schriben wir noch den Game-Loop. Dieser führt im Moment noch keine Logik aus.",
+
+    "Um das ganze zu verknüpfen, muss die CSS-Datei und die Javascript-Datei ins HTML eingebunden werden."
+  ]
+}

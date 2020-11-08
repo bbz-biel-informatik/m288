@@ -1,0 +1,14 @@
+{
+  "icon": "/images/fullscreen.png",
+  "title": "Vollbild",
+  "description": "Diese Anleitung beschreibt, wie ein Vollbildmodus programmiert werden kann.",
+  "steps": [
+    "Der Vollbildmodus baut auf dem Grundgerüst auf. Es sollte also grob diese Struktur vorhanden sein.",
+
+    "Um den Vollbildmodus zu starten, wird eine Schaltfläche benötigt. Am einfachsten geht das über ein `button`-Element. Dieses sollte eine eindeutige Klasse, z.B. `fullscreen` haben.",
+
+    "Der Button sowie das Spielfeld müssen im Javascript-Code *vor dem Loop* ausgewählt und in einer Variable gespeichert werden.",
+
+    "Um den Vollbildmodus zu aktivieren, muss *vor dem Loop* ein Event-Handler für den Button programmiert werden, der `requestFullscreen` startet."
+  ]
+}

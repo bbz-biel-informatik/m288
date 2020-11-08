@@ -1,0 +1,16 @@
+{
+  "icon": "/images/obstacle.png",
+  "title": "Hindernisse",
+  "description": "Für Spiele wie Flappy Bird oder Space Invaders müssen während dem Spiel Elemente (Hindernisse oder Gegner) generiert werden. Dieses Kapitel beschreibt, wie solche Elemente generiert werden können.",
+  "steps": [
+    "Der Code für die Hindernisse baut auf dem Grundgerüst auf. Es sollte also grob diese Struktur vorhanden sein.",
+
+    "Zuerst muss CSS-Code für die Hindernisse geschrieben werden. Wichtig ist dabei, dass diese absolut positioniert werden.",
+
+    "Um die Hindernisse zu generieren, kann zum Beispiel der Timer (siehe Kapitel [Timer](10_timer)) verwendet werden. Im Beispiel wird immer nach 30 Frames (2x pro Sekunde) ein Hindernis generiert.",
+
+    "Die Hindernisse werden mit dem Befehl `createElement` generiert. Die neu generierten Elemente müssen dabei die Klasse, die in CSS definiert wurde, haben.",
+
+    "Um die neuen Hindernisse zu positionieren, können die üblichen Methoden zur Positionierung verwendet werden."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "icon": "/images/score.png",
+  "title": "Punktzahl",
+  "description": "Bei vielen Spielen muss die Punktzahl angezeigt werden. Dieses Kapitel zeigt, wie die Punkte gezählt und dargestellt werden können.",
+  "steps": [
+    "Auch dieses Kapitel startet mit dem Grundgerüst. Dieses sollte ungefähr wie nebenstehend aussehen.",
+    
+    "Um die Punkte zu zählen, muss *vor dem Loop* eine neue Variable definiert werden. Meist kann der Startwert auf 0 gesetzt werden.",
+
+    "Die Punktzahl muss *im Loop* hochgezählt werden. Das kann entweder bei einer Kollision passieren, oder wenn eine bestimmte Position erreicht wird oder bei beliebigen anderen Ereignissen. In diesem Beispiel wird die Punktzahl hochgezählt, wenn der Spieler den Rand des Spielfelds berührt.",
+
+    "Um die Punktzahl anzeigen zu können, muss im HTML-Code ein Element zur Anzeige erstellt werden. Dieses Element muss im JS-Code *vor dem Loop* mit `querySelector` ausgewählt werden.",
+
+    "Die Anzeige muss dann aktualisiert werden. Dies geschieht jeweils dort im Loop, wo die Punktzahl geändert wird."
+  ]
+}

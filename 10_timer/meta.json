@@ -1,0 +1,14 @@
+{
+  "icon": "/images/timer.png",
+  "title": "Timer",
+  "description": "Einige Aktionen müssen nicht bei jeder Ausführung des Loops passieren, sondern nur periodisch. Dieses Kapitel beschreibt, wie Code in bestimmten Zeitabständen ausgeführt werden kann.",
+  "steps": [
+    "Der Code für den Timer baut auf dem Grundgerüst auf. Es sollte also grob diese Struktur vorhanden sein.",
+
+    "Damit der Timer verwendet werden kann, muss eine externe Javascript-Datei eingebunden werden. **Wichtig**: die Datei muss *vor der eigenen* JS-Datei eingebunden sein.",
+
+    "Zuerst muss ein `Timer` erstellt werden. Dies geschieht *vor dem Game-Loop*. In Klammern bestimmt man, alle wie viele Durchgänge des Game-Loops der Timer laufen soll. 60 bedeutet alle 60 Schritte oder 1x pro Sekunde. 15 bedeutet alle 15 Schritte, oder 4x pro Sekunde.",
+
+    "*Im Game-Loop* wird der Timer dann mit der `ready()`-Funktion abgefragt. So kann dann beliebiger Code ausgeführt werden."
+  ]
+}
