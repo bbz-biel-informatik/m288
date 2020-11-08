@@ -1,7 +1,7 @@
 {
   "icon": "/images/gravity.png",
   "title": "Schwerkraft",
-  "description": "Jump'n'run-Spiele wie Flappybird benötigen Schwerkraft. Dieses Kapitel erklärt, wie im Spiel Schwerkraft eingebaut  und konfiguriert werden kann",
+  "description": "Jump'n'run-Spiele wie Flappybird benötigen Schwerkraft. Dieses Kapitel erklärt, wie im Spiel Schwerkraft eingebaut  und konfiguriert werden kann.",
   "steps": [
     "Die Schwerkraft baut auf dem Grundgerüst auf. Es sollte also grob diese Struktur vorhanden sein. Damit ein Objekt bewegt werden kann, muss es unbedingt mit `position: absolute` im CSS-Code eine absolute Positionierung haben.",
 
