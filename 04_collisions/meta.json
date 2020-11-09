@@ -1,6 +1,17 @@
 {
   "icon": "/images/collision.png",
   "title": "Kollisionen",
-  "description": "",
-  "steps": []
+  "description": "Um zu überprüfen, ob sich zwei Objekte überlappen, werden sogenannte Kollisionen verwendet. Dieses Kapitel beschreibt, wie die Kollision von Objekten abgefragt werden kann.",
+  "steps": [
+    "Die Kollisionserkennung baut auf dem Grundgerüst auf. Es sollte also grob diese Struktur vorhanden sein. **Wichtig**: steuerbare Objekte müssen mit `position: absolute` positioniert werden!",
+
+    "Zuerst benötigen wir einige Gegner. Dazu definieren wir sie im HTML-Code, stylen sie in der CSS-Date und wählen sie schliesslich mit `querySelector()` im Javascript-Code *vor dem Game-Loop* aus.",
+
+    "Um Kollisionen erkennen zu können, müssen wir die Datei `collision.js` einbinden. Diese muss vor der eigenen game.js-Datei eingebunden werden.",
+
+    "Die Datei `collision.js` stellt uns zwei Funktionen zur Verfügung: `anyCollision()` und `allCollisions()`. Die Funktion `anyCollision()` überprüft, ob ein Objekt mit irgend einem anderen Objekt kollidiert ist. Die Funktion meldet aber die an der Kollision beteiligten Objekte nicht zurück. `anyCollision()` ist also z.B. dazu geeignet, das Spiel abzubrechen, wenn der Spieler in ein Hindernis läuft, da es in diesem Fall keine Rolle spielt, welches Hindernis der Spieler berührt hat.",
+
+    "Die Funktion `allCollisions()` meldet alle an der Kollision beteiligten Objekte zurück. Diese Funktion ist aufwändiger, kann aber beispielsweise verwendet werden, um getroffene Gegner zu entfernen. Hier ist es wichtig, welche Gegner getroffen wurden, deshalb kann nur `allCollisions()`, nicht aber `anyCollision()` verwendet werden."
+
+  ]
 }
