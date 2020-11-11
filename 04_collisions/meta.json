@@ -9,9 +9,11 @@
 
     "Um Kollisionen erkennen zu können, müssen wir die Datei `collision.js` einbinden. Diese muss vor der eigenen game.js-Datei eingebunden werden.",
 
-    "Die Datei `collision.js` stellt uns zwei Funktionen zur Verfügung: `anyCollision()` und `allCollisions()`. Die Funktion `anyCollision()` überprüft, ob ein Objekt mit irgend einem anderen Objekt kollidiert ist. Die Funktion meldet aber die an der Kollision beteiligten Objekte nicht zurück. `anyCollision()` ist also z.B. dazu geeignet, das Spiel abzubrechen, wenn der Spieler in ein Hindernis läuft, da es in diesem Fall keine Rolle spielt, welches Hindernis der Spieler berührt hat.",
+    "Die Datei `collision.js` stellt uns zwei Funktionen zur Verfügung: `isColliding()` und `getCollisions()`. Der Unterschied liegt darin, dass Funktion `isColliding()` nur überprüft, ob eine Kollision passiert ist, nicht aber, welche Objekte daran beteiligt sind. `getCollisions()` hingegen liefert die beteiligten Objekte.",
 
-    "Die Funktion `allCollisions()` meldet alle an der Kollision beteiligten Objekte zurück. Diese Funktion ist aufwändiger, kann aber beispielsweise verwendet werden, um getroffene Gegner zu entfernen. Hier ist es wichtig, welche Gegner getroffen wurden, deshalb kann nur `allCollisions()`, nicht aber `anyCollision()` verwendet werden."
+    "Dadurch, dass `isColliding()` nur meldet, ob überhaupt eine Kollision passiert, ist die z.B. dazu geeignet, das Spiel abzubrechen, wenn der Spieler in ein Hindernis läuft. In diesem Fall spielt es keine Rolle, welches Hindernis der Spieler berührt hat.",
+
+    "Dadurch, dass `getCollisions()` die an der Kollision beteiligten Objekte zurückmeldet, ist sie z.B. dafür geeignet, getroffene Gegner zu entfernen. Hier ist es wichtig, welche Gegner getroffen wurden, deshalb kann nur `getCollisions()` verwendet werden."
 
   ]
 }
