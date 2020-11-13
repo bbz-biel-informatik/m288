@@ -1,0 +1,14 @@
+{
+  "icon": "/images/gravity.png",
+  "title": "Hintergrund-Scrolling",
+  "description": "Bei Jump'n'run-Spielen muss sich häufig auch der Hintergrund bewegen. Diese Anleitung beschreibt, wie beliebige Hintergrundbilder bewegt werden können.",
+  "steps": [
+    "Das Hintergrund-Scrolling baut auf dem Grundgerüst auf. Es sollte also grob diese Struktur vorhanden sein.",
+
+    "Zuerst muss dem Spielfeld in CSS ein Hintergrund gegeben werden.",
+
+    "Damit der Hintergrund bewegt werden kann, muss das Spielfeld mit `querySelector` in eine Variable gespeichert werden.",
+
+    "Der Hintergrund kann dann über die `background-position`-Regel verschoben werden."
+  ]
+}

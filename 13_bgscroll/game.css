@@ -1,0 +1,13 @@
+.player {
+  position: absolute;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+}
+
+.playground {                               /* start=2 */
+  width: 400px;                             /* start=2 */
+  height: 400px;                            /* start=2 */
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/020/154/249/large/james-mornan-game-colours-2.jpg?1566589577);    /* start=2 */
+  background-size: contain;                 /* start=2 */
+}                                           /* start=2 */
