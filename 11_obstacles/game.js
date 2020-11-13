@@ -12,6 +12,14 @@ function loop() {
     spielfeld.appendChild(h)                                        /* start=4 */
   }                                                                 /* start=3 */
 
+  var steine = document.querySelectorAll('.stein')                  /* start=6 */
+  for(var stein of steine) {                                        /* start=6 */
+    stein.style.top = parseInt(stein.style.top) + 5 + 'px'          /* start=6 */
+    if(parseInt(stein.style.top) > 400) {                           /* start=7 */
+      stein.parentNode.removeChild(stein)                           /* start=7 */
+    }                                                               /* start=7 */
+  }                                                                 /* start=6 */
+
   window.requestAnimationFrame(loop)
 }
 

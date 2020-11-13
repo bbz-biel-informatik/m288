@@ -11,6 +11,10 @@
 
     "Die Hindernisse werden mit dem Befehl `createElement` generiert. Die neu generierten Elemente müssen dabei die Klasse, die in CSS definiert wurde, haben.",
 
-    "Um die neuen Hindernisse zu positionieren, können die üblichen Methoden zur Positionierung verwendet werden."
+    "Um die neuen Hindernisse zu positionieren, können die üblichen Methoden zur Positionierung verwendet werden.",
+
+    "Meist müssen Hindernisse automatisch bewegt werden. Dazu müssen sie mit `querySelectorAll` ausgewählt werden, und dann ihre Position abgeändert werden. Wichtig: Das Beispiel bewegt die Elemente nach unten. Eventuell muss die Bewegungsrichtung angepasst werden.",
+
+    "Um die Elemente zu entfernen, sobald sie ausserhalb des Spielfelds sind, kann ihre Position gemessen werden. Sie werden dann entfernt, sobald eine gewisse Maximaldistanz überschritten wurde."
   ]
 }
