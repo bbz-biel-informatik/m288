@@ -1,6 +1,18 @@
 {
   "icon": "/images/mouse.png",
   "title": "Maussteuerung",
-  "description": "",
-  "steps": []
+  "description": "Diese Anleitung erklärt, wie die Mausposition abgefragt sowie auf Klicks reagiert werden kann.",
+  "steps": [
+    "Die Maussteuerung baut auf dem Grundgerüst auf. Es sollte also grob diese Struktur vorhanden sein. **Wichtig**: steuerbare Objekte müssen mit `position: absolute` positioniert werden!",
+
+    "Damit die Maus abgefragt werden kann, muss die Datei `mouse.js` eingebunden werden. Diese kann direkt vom Server in den HTML-Code eingebettet werden. **Wichtig**: Die Datei muss *vor* eurer eigenen JS-Datei eingebunden sein.",
+
+    "Ausserdem muss das Spielfeld **vor dem Loop** mit `querySelector` ausgewählt und in eine Variable gespeichert werden.",
+
+    "Die Javascript-Datei stellt 3 Funktionen zur Verfügung: `mousePositionX()`, `mousePositionY() und `mouseClick()`.",
+
+    "Die Funktionen `mousePositionX()` und `mousePositionY()` sind dazu da, **im Loop drin** die aktuelle Mausposition abzufragen. Damit kann entweder gerechnet werden, oder der Spieler kann an die Position des Mauszeigers bewegt werden.",
+
+    "Mit `mouseClick()` kann abgefragt werden, ob soeben geklickt wurde. Im Beispiel wird bei einem Klick der Spieler umgefärbt. Es kann aber auch beispielsweise ein neues Hindernis generiert werden."
+  ]
 }
