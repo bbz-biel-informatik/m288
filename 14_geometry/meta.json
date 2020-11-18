@@ -15,6 +15,6 @@
 
     "Der Distance-Funktion müssen vier Zahlen gefüttert werden: der Abstand von links und vom oberen Rand des ersten Punkts sowie der Abstand von links und vom oberen Rand des zweiten Punkts. Die berechnete Distanz in Pixeln kann dann verwendet werden, um z.B. den Spieler je nach Distanz zum Gegner zu färben.",
 
-    "Die Angle-Funktion erwartet die gleichen vier Zahlen: jeweils die Abstände von links und oben zu den zwei zu vermessenden Objekten. Die Angle-Funktion liefert dann den Winkel zwischen den Objekten. Dies kann zum Beispiel verwendet werden, um den Spieler immer in Richtung Gegner zu drehen. 0 bedeutet, der Gegner ist oberhalb des Spielers, 90 bedeutet, er ist rechts des Spielers, 180 unterhalb usw."
+    "Die Angle-Funktion erwartet die gleichen vier Zahlen: jeweils die Abstände von links und oben zu den zwei zu vermessenden Objekten. Die Angle-Funktion liefert dann den Winkel zwischen den Objekten. Dies kann zum Beispiel verwendet werden, um den Gegner immer in Richtung Spieler zu drehen. 0 bedeutet, der Gegner ist oberhalb des Spielers, 90 bedeutet, er ist rechts des Spielers, 180 unterhalb usw."
   ]
 }
