@@ -24,7 +24,7 @@ function loop() {
     spieler.style.backgroundColor = 'green'                       /* start=6 */
   }                                                               /* start=6 */
 
-  const a = angle(gegnerX, gegnerY, spielerX, spielerY)           /* start=7 */
+  var a = angle(gegnerX, gegnerY, spielerX, spielerY)           /* start=7 */
   spieler.style.transform = "rotate(" + a + "deg)"                /* start=7 */
 
   window.requestAnimationFrame(loop)
