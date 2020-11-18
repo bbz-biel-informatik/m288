@@ -7,6 +7,10 @@ function loop() {
   spieler.style.left = mousePositionX(spielfeld) + 'px'           /* start=5 */
   spieler.style.top = mousePositionY(spielfeld) + 'px'            /* start=5 */
 
+  if(mouseClick()) {                                              /* start=6 */
+    spieler.style.backgroundColor = 'blue'                        /* start=6 */
+  }                                                               /* start=6 */
+
   window.requestAnimationFrame(loop)
 }
 

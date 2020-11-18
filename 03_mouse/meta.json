@@ -9,9 +9,9 @@
 
     "Ausserdem muss das Spielfeld **vor dem Loop** mit `querySelector` ausgewählt und in eine Variable gespeichert werden.",
 
-    "Die Javascript-Datei stellt 3 Funktionen zur Verfügung: `mousePositionX()`, `mousePositionY() und `mouseClick()`.",
+    "Die Javascript-Datei stellt 3 Funktionen zur Verfügung: `mousePositionX()`, `mousePositionY()` und `mouseClick()`.",
 
-    "Die Funktionen `mousePositionX()` und `mousePositionY()` sind dazu da, **im Loop drin** die aktuelle Mausposition abzufragen. Damit kann entweder gerechnet werden, oder der Spieler kann an die Position des Mauszeigers bewegt werden.",
+    "Die Funktionen `mousePositionX()` und `mousePositionY()` sind dazu da, **im Loop drin** die aktuelle Mausposition abzufragen. Damit kann entweder gerechnet werden, oder der Spieler kann wie im Beispiel an die Position des Mauszeigers bewegt werden.",
 
     "Mit `mouseClick()` kann abgefragt werden, ob soeben geklickt wurde. Im Beispiel wird bei einem Klick der Spieler umgefärbt. Es kann aber auch beispielsweise ein neues Hindernis generiert werden."
   ]
