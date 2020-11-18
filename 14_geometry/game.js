@@ -1,8 +1,8 @@
 var spieler = document.querySelector('.player')
 var gegner = document.querySelector('.enemy')                     /* start=2 */
 
-gegner.style.left = '0px'                                         /* start=2 */
-gegner.style.top = '0px'                                          /* start=2 */
+gegner.style.left = '100px'                                         /* start=2 */
+gegner.style.top = '100px'                                          /* start=2 */
 
 spieler.style.left = '0px'
 spieler.style.top = '0px'
@@ -28,7 +28,7 @@ function loop() {
   }                                                               /* start=6 */
 
   var a = angle(gegnerX, gegnerY, spielerX, spielerY)           /* start=7 */
-  spieler.style.transform = "rotate(" + a + "deg)"                /* start=7 */
+  gegner.style.transform = "rotate(" + a + "deg)"                /* start=7 */
 
   window.requestAnimationFrame(loop)
 }
