@@ -1,0 +1,20 @@
+{
+  "icon": "/images/mouse.png",
+  "title": "Geometrie",
+  "description": "Diese Anleitung zeigt einige Möglichkeiten auf, geometrische Berechnungen wie der Winkel oder die Distanz zwischen Objekten durchzuführen.",
+  "steps": [
+    "Zuerst brauchen wir wie immer das Grundgerüst. Es sollte also grob diese Struktur vorhanden sein. **Wichtig**: steuerbare Objekte müssen mit `position: absolute` positioniert werden!",
+
+    "Damit die Berechnungen durchgeführt werden können, brauchen wir ein zweites Objekt, zum Beispiel einen Gegener. Auch dieser muss absolut positioniert sein und **vor dem Loop** mit `querySelector` ausgewählt werden.",
+
+    "Für dieses Beispiel nehmen wir noch die Tastatursteuerung hinzu. Diese ist nicht nötig, vereinfacht aber die Darstellung.",
+
+    "Um die Berechnungen zu vereinfachen, wird die Datei `geometry.js` **vor** der eigenen Javascript-Datei eingebunden.",
+
+    "Die Datei beinhaltet zwei wichtige Funktionen, `distance()` und `angle()`, die die Distanz bzw. den Winkel zwischen zwei Objekten berechnen können.",
+
+    "Der Distance-Funktion müssen vier Zahlen gefüttert werden: der Abstand von links und vom oberen Rand des ersten Punkts sowie der Abstand von links und vom oberen Rand des zweiten Punkts. Die berechnete Distanz in Pixeln kann dann verwendet werden, um z.B. den Spieler je nach Distanz zum Gegner zu färben.",
+
+    "Die Angle-Funktion erwartet die gleichen vier Zahlen: jeweils die Abstände von links und oben zu den zwei zu vermessenden Objekten. Die Angle-Funktion liefert dann den Winkel zwischen den Objekten. Dies kann zum Beispiel verwendet werden, um den Spieler immer in Richtung Gegner zu drehen. 0 bedeutet, der Gegner ist oberhalb des Spielers, 90 bedeutet, er ist rechts des Spielers, 180 unterhalb usw."
+  ]
+}
