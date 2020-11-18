@@ -21,7 +21,7 @@ function loop() {
   var gegnerY = parseInt(gegner.style.left)                       /* start=6 */
                                                                   /* start=6 */
   var dist = distance(spielerX, spielerY, gegnerX, gegnerY)       /* start=6 */
-  if(dist < 100) {                                                /* start=6 */
+  if(dist < 200) {                                                /* start=6 */
   	spieler.style.backgroundColor = 'red'                         /* start=6 */
   } else {                                                        /* start=6 */
     spieler.style.backgroundColor = 'green'                       /* start=6 */
