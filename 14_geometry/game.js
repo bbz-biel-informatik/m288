@@ -1,6 +1,9 @@
 var spieler = document.querySelector('.player')
 var gegner = document.querySelector('.enemy')                     /* start=2 */
 
+gegner.style.left = '0px'                                         /* start=2 */
+gegner.style.top = '0px'                                          /* start=2 */
+
 spieler.style.left = '0px'
 spieler.style.top = '0px'
 
