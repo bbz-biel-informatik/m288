@@ -1,6 +1,22 @@
 {
   "icon": "/images/mouse.png",
-  "title": "Schüsse",
-  "description": "-",
-  "steps": []
+  "title": "Ballistik",
+  "description": "Um Objekte zu schiessen, braucht es einige Vorbereitungen. Dieses Kapitel erklärt, wie Schüsse generiert und dann bewegt werden können.",
+  "steps": [
+    "Zuerst brauchen wir wie immer das Grundgerüst. Es sollte also grob diese Struktur vorhanden sein. **Wichtig**: steuerbare Objekte müssen mit `position: absolute` positioniert werden!",
+
+    "Wir benötigen zuerst eine CSS-Klasse für die Schüsse. Dort können sie gestaltet und skaliert werden. Wichtig: sie müssen absolut positioniert sein.",
+
+    "Um die Schussrichtung zu bestimmen, müssen wir die geometry.js-Datei einbinden. Damit man mit der Maus schiessen kann, brauchen wir noch mouse.js. Es wäre auch möglich, Schüsse mit der Tastatur auszulösen. Dann bräuchte es mouse.js nicht.",
+
+    "Zuerst brauchen wir nun **im Loop drin** Code, der auf einen Mausklick wartet `if(mouseClick())`. Sobald geklickt wurde, müssen wir den Winkel zwischen dem Spieler und der geklickten Position bestimmen. Siehe dazu auch [Maussteuerung](03_mouse) und [Geometrie](14_geometry).",
+
+    "Als Reaktion auf den Klick generieren wir ein Div mit Klasse `shot` (wie im CSS vorher definiert) an der Position des Spielers.",
+
+    "Zusätlich müssen wir die Bewegungsrichtung im Schuss speichern. Diese entspricht dem vorher berechneten Winkel.",
+
+    "Als letztes müssen wir alle sich im Spiel befindlichen Schüsse in ihre individuelle Richtung bewegen. Dazu werden mit `querySelectorAll` alle Schüsse ausgewählt, und aus ihrer aktuellen Position und der Bewegungsrichtung mit Sinus und Cosinus die neue Position berechnet.",
+
+    "Um die Schüsse zu entfernen, sobald sie sich ausserhalb des Spielfeldes befinden, müssen wir sie löschen, sobald ihr Abstand zum Rand zu klein oder zu gross ist. Die Zahlenangaben müssen an die Spielfeldgrösse angepasst werden."
+  ]
 }
