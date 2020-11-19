@@ -12,7 +12,7 @@ function loop() {
     var spielerY = parseInt(spieler.style.top)                                                /* start=4 */
     var a = angle(spielerX, spielerY, mousePositionX(spielfeld), mousePositionY(spielfeld))   /* start=4 */
 
-  	var schuss = document.createElement('div')                                                /* start=5 */
+    var schuss = document.createElement('div')                                                /* start=5 */
     schuss.classList.add('shot')                                                              /* start=5 */
     schuss.style.left = spieler.style.left                                                    /* start=5 */
     schuss.style.top = spieler.style.top                                                      /* start=5 */
