@@ -27,7 +27,8 @@ function loop() {
     var rotation = schuss.getAttribute('data-angle')                                          /* start=7 */
     schuss.style.left = 3 * Math.sin(rotation) + xPos + 'px'                                  /* start=7 */
     schuss.style.top = 3 * Math.cos(rotation) + yPos + 'px'                                   /* start=7 */
-    if(parseInt(schuss.style.left) < 0 || parseInt(schuss.style.left) > 400 || parseInt(schuss.style.top) < 0 || parseInt(schuss.style.top) > 400) {    /* start=8 */
+    if(parseInt(schuss.style.left) < 0 || parseInt(schuss.style.left) > 400 ||                /* start=8 */
+        parseInt(schuss.style.top) < 0 || parseInt(schuss.style.top) > 400) {                 /* start=8 */
     	schuss.parentNode.removeChild(schuss)                                                   /* start=8 */
     }                                                                                         /* start=8 */
   }                                                                                           /* start=7 */
